@@ -1,0 +1,31 @@
+*.zip
+
+# Mac OS X
+*.DS_Store
+
+# Xcode
+bin/
+obj/
+project.xcworkspace/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.userprefs
+
+# Generated files
+*.o
+*.pyc
+
+#Python modules
+MANIFEST
+dist/
+build/
+
+# Backup files
+*~.nib
+
+#AppCode
+.idea
