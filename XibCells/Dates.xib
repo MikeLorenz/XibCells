@@ -39,6 +39,45 @@
 						<reference key="NSNextResponder" ref="41503215"/>
 						<int key="NSvFlags">256</int>
 						<array class="NSMutableArray" key="NSSubviews">
+							<object class="IBUILabel" id="592506869">
+								<reference key="NSNextResponder" ref="438498531"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{87, 5}, {61, 53}}</string>
+								<reference key="NSSuperview" ref="438498531"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="654702566"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<object class="NSColor" key="IBUIBackgroundColor">
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MAA</bytes>
+								</object>
+								<bool key="IBUIOpaque">NO</bool>
+								<bool key="IBUIClipsSubviews">YES</bool>
+								<int key="IBUIContentMode">7</int>
+								<bool key="IBUIUserInteractionEnabled">NO</bool>
+								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<string key="IBUIText"/>
+								<object class="NSColor" key="IBUITextColor" id="312387528">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MCAwIDAAA</bytes>
+									<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
+								</object>
+								<object class="NSColor" key="IBUIHighlightedColor" id="520258046">
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MQA</bytes>
+								</object>
+								<int key="IBUIBaselineAdjustment">0</int>
+								<object class="IBUIFontDescription" key="IBUIFontDescription">
+									<int key="type">1</int>
+									<double key="pointSize">17</double>
+								</object>
+								<object class="NSFont" key="IBUIFont">
+									<string key="NSName">Helvetica</string>
+									<double key="NSSize">17</double>
+									<int key="NSfFlags">16</int>
+								</object>
+								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
+							</object>
 							<object class="IBUILabel" id="800136453">
 								<reference key="NSNextResponder" ref="438498531"/>
 								<int key="NSvFlags">292</int>
@@ -57,10 +96,7 @@
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MC44Nzk5ODg5NjA2IDAuMDQ3OTEyNDk4NyAwLjMxNjkyMTI5NDYAA</bytes>
 								</object>
-								<object class="NSColor" key="IBUIHighlightedColor" id="520258046">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MQA</bytes>
-								</object>
+								<reference key="IBUIHighlightedColor" ref="520258046"/>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<int key="IBUITextAlignment">1</int>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
@@ -88,21 +124,17 @@
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText">Dec</string>
-								<object class="NSColor" key="IBUITextColor" id="312387528">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MCAwIDAAA</bytes>
-									<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
-								</object>
+								<reference key="IBUITextColor" ref="520258046"/>
 								<reference key="IBUIHighlightedColor" ref="520258046"/>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<int key="IBUITextAlignment">1</int>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="793962785">
+								<object class="IBUIFontDescription" key="IBUIFontDescription" id="577822767">
 									<int key="type">1</int>
-									<double key="pointSize">24</double>
+									<double key="pointSize">22</double>
 								</object>
-								<object class="NSFont" key="IBUIFont" id="573876679">
+								<object class="NSFont" key="IBUIFont" id="100314139">
 									<string key="NSName">Helvetica</string>
-									<double key="NSSize">24</double>
+									<double key="NSSize">22</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
@@ -110,11 +142,12 @@
 							<object class="IBUILabel" id="107774536">
 								<reference key="NSNextResponder" ref="438498531"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{87, 31}, {61, 32}}</string>
+								<string key="NSFrame">{{89, 30}, {57, 26}}</string>
 								<reference key="NSSuperview" ref="438498531"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="654702566"/>
+								<reference key="NSNextKeyView" ref="592506869"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<reference key="IBUIBackgroundColor" ref="520258046"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
@@ -125,8 +158,8 @@
 								<reference key="IBUIHighlightedColor" ref="520258046"/>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<int key="IBUITextAlignment">1</int>
-								<reference key="IBUIFontDescription" ref="793962785"/>
-								<reference key="IBUIFont" ref="573876679"/>
+								<reference key="IBUIFontDescription" ref="577822767"/>
+								<reference key="IBUIFont" ref="100314139"/>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 							</object>
 							<object class="IBUILabel" id="654702566">
@@ -253,6 +286,7 @@
 							<reference ref="654702566"/>
 							<reference ref="376119644"/>
 							<reference ref="107774536"/>
+							<reference ref="592506869"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -276,12 +310,18 @@
 						<reference key="object" ref="654702566"/>
 						<reference key="parent" ref="41503215"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">12</int>
+						<reference key="object" ref="592506869"/>
+						<reference key="parent" ref="41503215"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="12.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="3.CustomClassName">DatesCell</string>
 				<string key="3.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -293,7 +333,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">11</int>
+			<int key="maxID">12</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
